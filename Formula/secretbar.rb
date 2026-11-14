@@ -1,8 +1,8 @@
 class Secretbar < Formula
   desc "Keychain and Secure Enclave store for secrets an agent uses by name"
   homepage "https://secretbar.github.io"
-  url "https://github.com/secretbar/secretbar/archive/refs/tags/v1.8.0.tar.gz"
-  sha256 "b9a7c5920237fd6fd3283b611a64b266ab82e930be503319256afbc820e91467"
+  url "https://github.com/secretbar/secretbar/archive/refs/tags/v1.9.0.tar.gz"
+  sha256 "3f3fd5c0f936bdffd5a3d7c9e6d50c81ed9942d56e26f50e8b5a57c80052d4c4"
   license "MIT"
 
   depends_on :macos
