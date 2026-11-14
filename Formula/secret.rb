@@ -2,7 +2,7 @@ class Secret < Formula
   desc "Keychain and Secure Enclave store for secrets an agent uses by name"
   homepage "https://github.com/andrewkomkov/secret-cli"
   url "https://github.com/andrewkomkov/secret-cli/archive/refs/tags/v1.7.1.tar.gz"
-  sha256 "2c11c9fcaf4a1fe7e797656da00778d229d64f73c620b6640f44fa900e409368"
+  sha256 "b14ce8e5371aa83972db189e7dc3bc34824082ba3596e0efc4c2c619c6e170ec"
   license "MIT"
 
   depends_on :macos
