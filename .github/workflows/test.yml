@@ -16,13 +16,13 @@ jobs:
           fetch-depth: 0
 
       - name: Tap this checkout
-        run: brew tap andrewkomkov/secret "$GITHUB_WORKSPACE"
+        run: brew tap secretbar/tap "$GITHUB_WORKSPACE"
 
       - name: Install
-        run: brew install --build-from-source andrewkomkov/secret/secret
+        run: brew install --build-from-source secretbar/tap/secretbar
 
       - name: Test
-        run: brew test andrewkomkov/secret/secret
+        run: brew test secretbar/tap/secretbar
 
       - name: Audit
-        run: brew audit --strict andrewkomkov/secret/secret
+        run: brew audit --strict secretbar/tap/secretbar

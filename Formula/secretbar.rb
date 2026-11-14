@@ -1,8 +1,8 @@
-class Secret < Formula
+class Secretbar < Formula
   desc "Keychain and Secure Enclave store for secrets an agent uses by name"
-  homepage "https://github.com/andrewkomkov/secret-cli"
-  url "https://github.com/andrewkomkov/secret-cli/archive/refs/tags/v1.8.0.tar.gz"
-  sha256 "9113525ac1e90609d13c930b9afce164313719b1062ffbb3ad6765ba9e075ba4"
+  homepage "https://secretbar.github.io"
+  url "https://github.com/secretbar/secretbar/archive/refs/tags/v1.8.0.tar.gz"
+  sha256 "b9a7c5920237fd6fd3283b611a64b266ab82e930be503319256afbc820e91467"
   license "MIT"
 
   depends_on :macos
@@ -33,8 +33,8 @@ class Secret < Formula
         secret init
 
       Claude Code: the hook in ~/.claude/settings.json and the agent rules in
-      ~/.claude/CLAUDE.md. Optional: the menu bar app SecretBar (it needs Xcode).
-        "$(brew --prefix secret)/libexec/install.sh" --claude-hook --app
+      ~/.claude/CLAUDE.md. Optional: the menu bar app (it needs Xcode).
+        "$(brew --prefix secretbar)/libexec/install.sh" --claude-hook --app
 
       Without an Apple Development certificate the helpers are signed ad-hoc. After an
       upgrade that changes the store helper, secret asks for `secret touchid repair`.
